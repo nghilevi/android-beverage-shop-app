@@ -1,0 +1,7 @@
+INDEX VERSION 1.126+C:\Users\Laurea\workspace\test\.metadata\.plugins\org.eclipse.jdt.core
+521785903.index
+1284074322.index
+2787875571.index
+1928329293.index
+3271193799.index
+3993034947.index

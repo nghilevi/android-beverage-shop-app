@@ -1,0 +1,132 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tr_blue"
+    android:gravity="center_horizontal"
+     >
+         
+<TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:stretchColumns="*">
+		<TableRow
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" >
+				<TextView
+			        android:id="@+id/messageTextView"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text=""
+			        android:layout_span="4"
+			        android:textColor="#FFFFFF"
+			        android:gravity="center"
+			        android:textAppearance="?android:attr/textAppearanceSmall" 
+		        />
+		    </TableRow>
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <ImageView
+                android:id="@+id/m1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stamp_icon" 
+                />
+            <ImageView
+                android:id="@+id/m2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stamp_icon"
+                 />
+            <ImageView
+                android:id="@+id/m3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stamp_icon"
+                 />
+            <ImageView
+                android:id="@+id/m4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stamp_icon"
+                 />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+            <ImageView
+                android:id="@+id/m5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stamp_icon" 
+                />
+            
+            <ImageView
+                android:id="@+id/m6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stamp_icon"
+                 />
+            
+            <ImageView
+                android:id="@+id/m7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stamp_icon"
+                 />
+            
+            <ImageView
+                android:id="@+id/m8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stamp_icon"
+                 />
+        </TableRow>
+		<TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+             <ImageView
+               android:id="@+id/m9"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/stamp_icon" 
+               />
+             <ImageView
+               android:id="@+id/m10"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/stamp_icon_free" 
+               />
+    	</TableRow>
+    </TableLayout>
+
+
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:textColor="#FFFFFF"
+    android:text="TAB HERE TO SCAN" />
+
+<ImageButton
+    android:id="@+id/stampButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/textView1"
+    android:layout_centerHorizontal="true"    
+    android:background="@android:color/transparent"
+    android:src="@drawable/finger" />
+
+
+</RelativeLayout>

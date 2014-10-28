@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" android:maxSdkVersion="20"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+       >
+        <activity
+            android:name="com.laurea.vanessa.fi.MainActivity"
+            android:label="@string/app_name" 
+            android:theme="@style/Theme.AppCompat.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+         </activity>         
+        <activity
+            android:name="com.laurea.vanessa.fi.BeverageInfoActivity"
+            android:label="@string/app_name" 
+            android:theme="@style/Theme.AppCompat.Light" >
+        </activity>
+        <activity
+            android:name="com.laurea.vanessa.fi.LunchMenuActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light" >
+        </activity>
+         <activity
+            android:name="archive.StaffAuthenticationActivity"
+            android:label="@string/app_name" >
+        </activity>
+          <activity
+            android:name="com.laurea.vanessa.fi.ContactInfoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light" >
+        </activity>
+        
+          <activity
+            android:name="com.laurea.vanessa.fi.StampMenuActivity"
+            android:label="@string/app_name" >
+          </activity>
+          <activity  
+			android:name="group.pals.android.lib.ui.lockpattern.LockPatternActivity"  
+			android:theme="@style/Alp.Theme.Dark" />
+    </application>
+        
+</manifest>
+

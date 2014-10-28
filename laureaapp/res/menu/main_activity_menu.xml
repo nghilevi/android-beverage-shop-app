@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hmkcode="http://schemas.android.com/apk/res-auto">
+
+        <item
+        android:id="@+id/lunch"
+        android:orderInCategory="100"
+        hmkcode:showAsAction="always"
+        android:icon="@drawable/ic_action_event"
+        android:title="Lunch"/>
+        
+        <item
+        android:id="@+id/coffee"
+        android:orderInCategory="100"
+        hmkcode:showAsAction="always"
+        android:icon="@drawable/coffee"
+        android:title="Coffee"/>
+	    <item
+        android:id="@+id/contact"
+        android:orderInCategory="100"
+        hmkcode:showAsAction="always"
+        android:icon="@drawable/ic_action_email"
+        android:title="Contact"/>
+
+</menu>

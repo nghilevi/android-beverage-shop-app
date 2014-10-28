@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;test/gen/com.example.tes&apos;&#x0D;&#x0A;- Original project: &apos;appcompat_v7&apos;&#x0D;&#x0A;- Destination element: &apos;test/gen/com.example.tes&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     android.support.v7.appcompat.R.java&#x0D;&#x0A;     android.support.v7.appcompat.BuildConfig.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="=test/gen&lt;com.example.tes" element1="/gen&lt;android.support.v7.appcompat{R.java" element2="/gen&lt;android.support.v7.appcompat{BuildConfig.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1402730254773" units="2" version="1.0"/>
+</session>

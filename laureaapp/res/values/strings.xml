@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LaureaApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="cofe_menu">Cafe Menu</string>
+    <string name="menu_settings">TODO</string>
+    <string name="action_search">Search</string>
+    
+    <string-array name="titles">
+        <item>Coffee</item>
+        <item >Latte</item>
+        <item >Cappuccino</item>
+        <item>Tea</item>
+        <item>Sandwich</item>
+    </string-array>
+    
+    <string-array name="descriptions">
+        <item>Here will be the description of every product from the Beat Cafe</item>
+        <item >Here will be the description of every product from the Beat Cafe</item>
+        <item >Here will be the description of every product from the Beat Cafe</item>
+        <item>Here will be the description of every product from the Beat Cafe</item>
+        <item>Here will be the description of every product from the Beat Cafe</item>
+    </string-array>
+    
+     <string-array name="menuPrice">
+        <item>1,3€</item>
+        <item >2€</item>
+        <item >1€</item>
+        <item>0,8€</item>
+        <item>2,7€</item>
+    </string-array>
+    
+      <string-array name="contacts">
+        <item>Miia Vakkuri</item>
+        <item >Ilari Paananen</item>
+        </string-array>
+        
+      <string-array name="position">
+        <item>Ravintolapäällikkö/Restaurant Manager</item>
+        <item >Keittiöpäällikkö/Main Chef</item>
+        </string-array>
+        
+      <string-array name="phone">
+        <item>(09) 8868 7875</item>
+        <item >(09) 8868 7889</item>
+        </string-array>
+        
+         <string-array name="address">
+        <item>Laurea Leppävaara</item>
+        <item >Laurea Leppävaara</item>
+        </string-array>
+        
+</resources>
